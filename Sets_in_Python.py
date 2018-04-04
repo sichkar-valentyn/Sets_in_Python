@@ -51,13 +51,3 @@ print()
 for x in basket:
     print(x)
 print()
-
-# Implementing the task
-# Imput string with elements divided by gaps
-# Output theelements and the number they are found in the string
-# Algorithm isn't sensitive to upper or lowcase letters
-string = input().lower().split()  # Creating the string with low case latters
-s = set(string)  # Creating the set with elements from the string but it will not add repeated elements
-for x in s:
-    print(x, string.count(x))
-
